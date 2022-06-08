@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="tBfR+NcN2dV0uI,#(JJ,">Player</variable><variable type="KIND_SpriteKind" id="+#4ynboumSh/H+%u-BJU">Projectile</variable><variable type="KIND_SpriteKind" id="l0R?7bJ}[M+9Q{|#a+$o">Food</variable><variable type="KIND_SpriteKind" id="`JhUm`2V!dMt!o6)097m">Enemy</variable><variable id="smg]+]?KmMLOS[ozz`lM">mySprite</variable><variable id="gN*+XLUTWkWh*CB+0]hH">item</variable></variables><block type="pxt-on-start" id=":_O8L(h@GA~~snACr!5{" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="Pn6;a~-VBmM.+VR~Ce5i"><field name="VAR" id="smg]+]?KmMLOS[ozz`lM">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="~]|8@c9}FMNDW8Qet(+a"><value name="img"><shadow type="screen_image_picker" id="{(,cHamyMGkY:LMwvX[I"><field name="img">img`
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 9 3 3 3 9 3 3 3 3 3 3 
+3 3 3 3 3 9 3 3 3 9 3 3 3 3 3 3 
+3 3 3 3 3 9 3 3 3 9 3 3 3 3 3 3 
+3 3 3 3 3 9 3 3 3 9 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 9 3 3 3 3 3 3 9 3 3 3 3 
+3 3 3 3 3 9 9 9 9 9 9 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"{(,cHamyMGkY:LMwvX[I"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="4jaw4VyS#o^oMIuL):|l"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="AJ7MZV+s6]M.n}OjijZ="><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="(0^Y^7FtN|1kmlGY=.nh"><field name="VAR" id="smg]+]?KmMLOS[ozz`lM">mySprite</field></block></value><next><block type="set_current_tilemap" id="TKIBwt*[kLvEw9V1S+FG"><value name="tilemap"><shadow type="tiles_tilemap_editor" id="iL?hMbK9.YdHwr:)370i"><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data></shadow></value></block></next></block></next></block></statement></block></xml>
